@@ -1,0 +1,59 @@
+.contentBox {
+  width: 1200px;
+  margin: auto;
+}
+.contentBox .content {
+  border: 1px solid #ccc ;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+.contentBox .content .goAll {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+.contentBox .content .loade_text {
+  margin: auto;
+  overflow: hidden;
+}
+.contentBox .content .loade_text .account {
+  margin-bottom: 20px;
+}
+.contentBox .content .loade_text .pwd {
+  margin-bottom: 20px;
+}
+.contentBox .content .loade_text .ok {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.contentBox .content .loade_text .ok .okBtn {
+  width: 100%;
+  background: #003f95;
+  border: none;
+}
+.contentBox .content .forgotPassword {
+  float: right ;
+}
+.contentBox .content .forgotPassword span:hover {
+  color: #09e;
+}
+.contentBox .content .forgotPassword .forgotPwd {
+  padding: 10px;
+}
+.contentBox .content .forgotPassword .registered {
+  padding: 10px;
+}
+.contentBox .content .vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentBox .content .vertical-center-modal .ivu-modal {
+  top: 0;
+}

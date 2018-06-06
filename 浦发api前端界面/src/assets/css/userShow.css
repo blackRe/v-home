@@ -1,0 +1,41 @@
+.userShowList {
+  width: 1035px;
+  margin-left: 165px;
+}
+.userShowList .userNameList {
+  height: 45px;
+  line-height: 45px;
+  width: 100%;
+}
+.userShowList .userNameList .content .workNumber {
+  margin-left: 25px;
+}
+.userShowList .userNameList .content .btnBackground {
+  border: none;
+  background: #003f95;
+  margin-left: 15px;
+}
+.userShowList .userNameList .content .state {
+  border: none;
+  background: #003f95;
+}
+.userShowList .userlistText {
+  width: 100%;
+  margin-top: 15px;
+}
+.userShowList .userlistText .userTitle {
+  height: 45px;
+  width: 100%;
+  line-height: 43px;
+  border-bottom: 1px solid #003f95;
+}
+.userShowList .userlistText .userTitle li {
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+.userShowList .userlistText .userTitle .selectUser {
+  width: 135px;
+}

@@ -1,0 +1,73 @@
+.changePassword {
+  width: 1200px;
+  height: 300px;
+}
+.changePassword .change_content {
+  width: 500px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5 ;
+  margin: auto;
+  margin-top: 100px;
+}
+.changePassword .change_content .changeText {
+  height: 32px;
+  margin-top: 20px;
+  text-align: center;
+}
+.changePassword .change_content .eMailAll {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.changePassword .change_content .userName {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.changePassword .change_content .userpassword {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.changePassword .change_content .verifyImage {
+  width: 300px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.changePassword .change_content .verifyImage .verifyImageInput {
+  width: 180px;
+}
+.changePassword .change_content .verifyImage .verify {
+  width: 110px;
+  margin-left: 10px;
+  height: 32px;
+}
+.changePassword .change_content .verifyImage .verify .validationImg {
+  width: 100%;
+}
+.changePassword .change_content .getVerifyImage {
+  width: 300px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.changePassword .change_content .getVerifyImage .getVerifyImageInput {
+  width: 180px;
+}
+.changePassword .change_content .getVerifyImage .getSendBtn {
+  width: 110px;
+  margin-left: 10px;
+  background: #003f95;
+  border: none;
+}
+.changePassword .change_content .sendContent {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.changePassword .change_content .sendContent .sendBtn {
+  width: 300px;
+  background: #003f95;
+  border: none;
+}

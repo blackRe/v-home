@@ -1,0 +1,38 @@
+.contentBox {
+  overflow: hidden;
+  height: 600px;
+  margin-left: 200px;
+}
+.contentList {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.contentList .up_img_list_all {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.contentList .up_img_list_all img {
+  height: 200px;
+  width: 198px;
+}
+.contentList .detail {
+  height: 100px;
+  background: #fff;
+}
+.contentList .detail div {
+  height: 20px;
+  line-height: 24px;
+}
+.contentList .detail .img {
+  width: 200px;
+  height: 200px;
+}
+.contentList .detail .detail_text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

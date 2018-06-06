@@ -1,0 +1,41 @@
+.apiList {
+  border: 1px solid red;
+  width: 1035px;
+  margin-left: 15px;
+  height: 100%;
+  overflow: hidden;
+}
+.apiList #list-content {
+  width: 190px;
+  text-align: center;
+  margin-right: 15px;
+}
+.apiList .apiRight {
+  width: 945px;
+  margin-left: 255px;
+  height: 100%;
+}
+.apiList .loginTitle {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  margin-bottom: 15px;
+  padding-top: 12px;
+}
+.apiList .loginTitle .admiBox {
+  width: 200px;
+}
+.apiList .loginTitle .admiBox .admiName {
+  width: 200px;
+  line-height: 40px;
+}
+.apiList .loginTitle .loginImg {
+  width: 250px;
+  height: 36px;
+  line-height: 60px;
+  margin-left: 40px;
+}
+.apiList .loginTitle .loginImg img {
+  width: 100%;
+  height: 100%;
+}
