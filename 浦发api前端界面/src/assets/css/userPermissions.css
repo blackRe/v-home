@@ -1,0 +1,26 @@
+.contentBox {
+  overflow: hidden;
+  padding: 20px;
+  margin-left: 200px;
+  background: #fff;
+}
+.contentBox .contentList {
+  width: 960px;
+}
+.contentBox .boxStatus {
+  width: 640px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.contentBox .boxStatus li {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.contentBox .boxStatus li:hover {
+  border-bottom: 2px solid #09e;
+}
+.contentBox .boxStatus .active {
+  border-bottom: 2px solid #09e;
+}

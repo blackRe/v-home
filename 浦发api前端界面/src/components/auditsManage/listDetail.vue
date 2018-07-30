@@ -62,7 +62,7 @@
 		},
 		 beforeMount: function() {
     			this.id=this.$route.query.id;
-    			
+    			alert(this.$route.query.id)
 			this.gitData(this.$route.query.id);
 		 },
 		
@@ -73,13 +73,13 @@
 					id:id,
 				});
 				vm.$http({
-					url: vm.http+"/api/klp/listDetail",
+					url: vm.http+"/api/klp/classDetail",
 						
 						method: "post",
 						data: data,
 					})
 					.then(res => {
-						console.log(res,'ressssss')
+						console.log(res,'详情')
 						if(res.data.code == 200) {
 							vm.$Message.success("数据获取成功");
 							vm.listData = res.data.data;

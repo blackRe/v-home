@@ -2,14 +2,14 @@
 	<div class="contentBox">
 		<div class="contentList l" v-for="data in listData" @click="goDetail(data.id)">
 			<div class="up_img_list_all">
-				<img :src="data.img" class="img" alt="">
+				<img :src="data.img1" class="img" alt="">
 			</div>
 			<div class="detail">
-				<div class="detail_name">姓名<span>{{data.age}}</span></div>
-				<div class="detail_text">简介 <span>{{data.detail}}</span> </div>
+				<div class="detail_name">名称：<span>{{data.name}}</span></div>
+				<div class="detail_text">简介： <span>{{data.detail}}</span> </div>
 				<!--<div class="detail_money">工作年限 <span>{{data.year}}</span></div>-->
-				<div class="detail_money">税率 <span>{{data.number}}</span></div>
-				<div class="address">所在地区 <span>{{data.province}}/{{data.ctiy}}</span></div>
+				<div class="detail_money">单价： <span>{{data.price}}/{{data.unit}}</span></div>
+				<div class="address">所在地区： <span>{{data.province}}/{{data.ctiy}}</span></div>
 			</div>
 		</div>
 	</div>
@@ -91,13 +91,13 @@
 			goList() {
 				let vm = this;
 				vm.$http({
-						url: vm.http+"/api/klp/list",
+						url: vm.http+"/api/shop/list",
 						method: "post",
 						data: '',
 					})
 					.then(res => {
 						if(res.data.code == 200) {
-							vm.$Message.success("数据获取成功");
+							vm.$Message.success("列表数据获取成功");
 							vm.listData = res.data.data;
 							//							alert(9)
 						} else {

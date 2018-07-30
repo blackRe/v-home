@@ -85,7 +85,7 @@ export default {
 						console.log(55555);
 						if(res.data.code==200){
 //							this.$router.push("apilist");
-
+			
 								this.$router.push('changepasswordtowo')
 						}else{
 							vm.$Message.error("账户活这密码错误");

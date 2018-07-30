@@ -2,7 +2,7 @@
 	<div id="app">
 		<div class="app_content">
 			<!--判断title和左侧菜单是否显示-->
-			<headTitle  v-show='urlData==1'></headTitle>
+			<headTitle v-show='urlData==1'></headTitle>
 			<leftView class='l' v-if='urlData==1'></leftView>
 			<router-view></router-view>
 		</div>
@@ -20,31 +20,31 @@
 			}
 		},
 		beforeMount() {
-//			利用路由判断显示与否
-this.urla()
+			//			利用路由判断显示与否
+			this.urla()
 		},
 		methods: {
-			
-			urla:function(){
-							let vm=this;	
-		if(this.$route.path=='/demo'||this.$route.path=='/changepassword'||this.$route.path=='changepasswordtowo'||this.$route.path=='/process'||this.$route.path=='/admin'){
-			vm.urlData=2;
-			
-		}else{
-			
-			vm.urlData=1;
-		}
+
+			urla: function() {
+				let vm = this;
+				if(this.$route.path == '/demo' || this.$route.path == '/changepassword' || this.$route.path == 'changepasswordtowo' || this.$route.path == '/process' || this.$route.path == '/admin') {
+					vm.urlData = 2;
+
+				} else {
+
+					vm.urlData = 1;
+				}
 			}
 		},
-		watch:{
-			$route(ol,dl){
+		watch: {
+			$route(ol, dl) {
 				this.urla()
 			}
 		},
 		components: {
 			headTitle,
 			leftView,
-			
+
 		}
 	}
 </script>
@@ -59,12 +59,14 @@ this.urla()
 		/*margin-top: 60px;*/
 		/*margin: auto;*/
 	}
-	#app .app_content{
-    width: 1200px;
-    height: 100%;
-    margin:0 auto;
-}
-#app .leftView{
-	width: 240px;
-}
+	
+	#app .app_content {
+		width: 1200px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	
+	#app .leftView {
+		width: 240px;
+	}
 </style>
