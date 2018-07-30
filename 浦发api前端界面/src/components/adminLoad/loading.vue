@@ -41,7 +41,7 @@
 			return {
 				msg: "欢迎进入浦发银行网站",
 				valueOne: "klp",
-				valueTwo: "5513191",
+				valueTwo: "551319",
 				modal1: false
 			};
 		},
@@ -102,7 +102,7 @@
 					pwd: vm.valueTwo
 				});
 				vm.$http({
-						url:vm.http+ "/api/klp/loginAll",
+						url:vm.http+ "/api/shop/loginAll",
 						method: "post",
 						data: data,
 //						headers: {

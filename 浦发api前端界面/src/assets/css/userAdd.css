@@ -1,20 +1,45 @@
-.user {
+.contentBox {
   width: 920px;
-  height: 400px;
-  margin-left: 180px;
+  margin-left: 200px;
+  padding: 20px;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 80px;
 }
-.user .boxList {
-  width: 350px;
-  margin: auto;
+.contentBox .addText {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E5E5E5;
   margin-bottom: 20px;
 }
-.user .boxList .boxText {
-  width: 60px;
-  line-height: 30px;
-  text-align: right;
+.contentBox .addInput {
+  width: 500px;
+  margin: auto;
+  height: 300px;
 }
-.user .boxList .getData {
-  width: 250px;
-  height: 32px;
-  line-height: 30px;
+.contentBox .addInput .inputContent {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.contentBox .addInput .inputContent .inputContentText {
+  width: 100px;
+  text-align: right;
+  line-height: 31px;
+}
+.contentBox .addInput .inputContent .inputContentInput {
+  width: 310px;
+}
+.contentBox .addInput .inputContent .inputContentInput1 {
+  width: 100px;
+  height: 31px;
+  line-height: 31px;
+  margin-left: 100px;
+  text-align: center;
+}
+.contentBox .addInput .inputContent .inputImg {
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid red ;
 }

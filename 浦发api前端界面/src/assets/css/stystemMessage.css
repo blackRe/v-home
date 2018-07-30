@@ -1,0 +1,17 @@
+.contentBox {
+  overflow: hidden;
+  width: 920px;
+  padding: 20px;
+  margin-left: 200px;
+  background: #fff;
+}
+.contentBox .contentList {
+  width: 100%;
+}
+.contentBox .box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
