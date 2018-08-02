@@ -17,7 +17,7 @@ axios.defaults.withCredentials=true;
 
 Vue.prototype.$http = axios;
 Vue.prototype.http='/ajaxurl';
-
+//Vue.prototype.http='http://192.168.1.101:3000';
 
 
 
